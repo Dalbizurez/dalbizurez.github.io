@@ -1,0 +1,112 @@
+body {
+    background-color: #0C232B;
+    color: #40E6D5;
+    font-family: 'Lato', sans-serif;
+}
+
+/* Estilo del menu*/
+
+.nav-link {
+    color: #40E6D5;
+}
+
+.nav-link:hover {
+    color: #FF6400;
+}
+
+#logo {
+    width: 40px;
+}
+
+/* Estilo para Nuestro trabajo */
+
+.gallery {
+    display: flex;
+    width: 100%;
+    padding: 2% 0%;
+    box-sizing: border-box;
+    height: 70vh;
+}
+
+.gallery .box {
+    flex: 1;
+    overflow: hidden;
+    transition: .7s;
+    margin: 0 2%;
+    box-shadow: 0 20px 30px rgba(96, 206, 175, 0.54);
+    line-height: 0;
+}
+
+.gallery .box>img {
+    width: 200%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.gallery .box:hover {
+    flex: 60%;
+}
+.gallery .box:hover>img {
+    object-fit: scale-down;
+}
+
+/* Estilo para contacto*/
+
+.stats {
+    margin: 4% 2% 0%;
+}
+
+.redes img {
+    max-width: 100px;
+}
+
+/* Estilo para clientes */
+
+.heading {
+    color: #333;
+    background: #CDE8E5;
+}
+
+.review .box-container .box {
+    box-shadow: 0 .5rem 1.5rem rgba(0, 0, 0, 5);
+    border-radius: .5rem;
+    position: relative;
+}
+
+.review .box-container .box .fa-quote-right {
+    position: absolute;
+}
+
+.review .box-container .box p {
+    line-height: 1.8;
+    padding-top: 2rem;
+}
+
+.review .box-container .box .user {
+    align-items: center;
+}
+
+.review .box-container .box .user img {
+    height: 6rem;
+    width: 6rem;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 1rem;
+}
+
+.review .box-container .box .user h3 {
+    color: #000000;
+}
+
+/*
+.review .box-container .box .user span{
+    font-size: 1.5rem;
+}
+
+html{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+    scroll-padding-top: 6rem;
+    overflow-x: hidden;
+}
+*/
